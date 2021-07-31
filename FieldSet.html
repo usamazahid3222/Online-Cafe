@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> my first page</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+<a href="http://www.google.com" id="aGoogle2">Google Link</a>
+    <script type="text/javascript">
+        $(function () {
+          $("#aGoogle2").attr("href", "http://www.google.co.uk");
+	   alert($("#aGoogle2").attr("href"));
+	   $("#aGoogle2").attr(
+            {
+                "href": "http://www.google.com.pk",
+                "title": "Google Pakistan"
+            });
+	   alert($("#aGoogle2").attr("href"));
+        });
+    </script>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+</body>
+</html>
